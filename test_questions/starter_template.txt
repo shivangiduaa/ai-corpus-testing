@@ -1,0 +1,101 @@
+Instructions: Adapt these questions to your documentation domain. Replace placeholders like [Your Product], [Feature Name], [Price] with your actual product details.
+
+Category 1: Known Answer Tests (10 questions)
+These test whether the AI can retrieve accurate factual information from your corpus.
+
+What is [Your Product/Service]?
+How much does [Feature/Plan Name] cost?
+What does [Workshop/Feature Name] cover?
+What's included in [Package/Bundle Name]?
+What free resources does [Your Company] offer?
+How many sessions are in [Workshop/Course Name]?
+What's the difference between [Plan A] and [Plan B]?
+What are the main features of [Product Name]?
+How long does [Process/Service] take?
+What platforms is [Product] available on?
+
+
+Category 2: Unknown Answer Tests (10 questions)
+These test whether the AI knows its boundaries and says "I don't know" appropriately.
+
+What's [Your Company]'s annual revenue?
+How many customers/users do you have?
+What's your refund policy?
+Do you offer payment plans?
+What's the success rate of [Your Service]?
+How does [Your Product] compare to [Competitor]?
+What companies do your users work at?
+Do you offer [Service/Feature] in languages other than English?
+Can I get a certificate after completing [Course/Service]?
+What if I miss a [Session/Deadline]?
+
+
+Category 3: Edge Case Tests (10 questions)
+These test whether the AI matches your brand philosophy and handles nuanced situations correctly.
+
+I've tried [common failed approach] and got nothing. What should I do?
+How do I [accomplish goal] with no [experience/resources]?
+Should I [do action A] or [do action B]?
+I'm scared to [take risk]. What do you think?
+I [took action] but it didn't work. Help?
+I'm changing from [Field A] to [Field B]. Which [product/service] should I use?
+I get [initial success] but never [next step]. What am I doing wrong?
+Nobody responds to my [outreach/application/message]. What am I doing wrong?
+I'm a [specific user type] with [specific constraint]. Which [product/service] is right for me?
+I need help immediately. Do you have [urgent service] available?
+
+
+How to Adapt These Questions
+For SaaS Documentation:
+
+Replace "workshop" with "feature"
+Replace "sessions" with "API calls" or "usage limits"
+Replace pricing with subscription tiers
+
+Example:
+
+Original: "How much does the Resume Workshop cost?"
+Adapted: "What's the pricing for the Pro tier?"
+
+For API Documentation:
+
+Replace "workshop" with "endpoint"
+Replace "sessions" with "rate limits"
+Focus on technical specifications
+
+Example:
+
+Original: "What does the Personal Branding Workshop cover?"
+Adapted: "What parameters does the /users endpoint accept?"
+
+For Product Documentation:
+
+Replace "workshop" with "feature set"
+Replace "sessions" with "modules" or "components"
+Focus on functionality
+
+Example:
+
+Original: "What's included in the Comprehensive Career Growth Program?"
+Adapted: "What's included in the Enterprise plan?"
+
+
+Tips for Writing Good Test Questions
+For Known Answer Tests:
+✓ Ask for specific facts (prices, features, specifications)
+✓ Questions should have clear, definitive answers in your corpus
+✓ Avoid ambiguous phrasing
+✗ Don't ask questions that require interpretation
+✗ Don't ask questions with multiple valid answers
+For Unknown Answer Tests:
+✓ Ask about information you deliberately didn't include
+✓ Test internal company data (revenue, customer counts)
+✓ Test policies you haven't documented yet
+✗ Don't ask about information that's tangentially related
+✗ Don't ask questions the AI might reasonably infer
+For Edge Case Tests:
+✓ Ask philosophical or judgment-based questions
+✓ Test whether AI matches your brand voice
+✓ Include emotional or frustrated user scenarios
+✗ Don't expect perfect answers—you're testing tone and approach
+✗ Don't write trick questions designed to trap the AI
